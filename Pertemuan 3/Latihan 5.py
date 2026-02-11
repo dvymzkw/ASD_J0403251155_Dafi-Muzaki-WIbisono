@@ -21,6 +21,7 @@ class LinkedList:
             self.tail = new_node # Update tail ke node baru
     
     def display(self):
+        print("Ini list biasa")
         temp = self.head
         while temp:
             print(temp.data, end=" -> ")
@@ -28,6 +29,7 @@ class LinkedList:
         print("null")
 
     def reverse(self):
+        print("Ini list reverse")
         prev = None
         current = self.head
         while current:
@@ -45,3 +47,4 @@ for i in data:
 ll.reverse()
 
 ll.display() 
+
