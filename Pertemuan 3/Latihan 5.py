@@ -1,4 +1,5 @@
 #Latihan 5
+#Dafi Muzaki Wibisono (J0403251155)
 
 class Node:
     def __init__(self, data):
@@ -42,4 +43,5 @@ data = data_input.strip().split()
 for i in data:
     ll.insert_at_end(int(i))
 ll.reverse()
+
 ll.display() 
